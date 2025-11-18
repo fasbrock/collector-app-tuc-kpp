@@ -28,8 +28,8 @@ hide_score: false
 statements_only_for_top_publications: true
 
 meta:
-  sources: ["packs/core-meta.json"]
-  exclude: ["RaterType "]
+  sources: ["packs/core-meta.json", "packs/user.json"]
+  exclude: ["RaterType", "DateCreated", "LastChange", "METASEP1"]
   config:
     min_indicators_warning_threshold: 0
 
